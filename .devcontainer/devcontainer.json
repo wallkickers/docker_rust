@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vscode/master/extensions/configuration-editing/schemas/devContainer.schema.json", // 補完機能
+    "name": "rustdevcontainer",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+		"rust-lang.rust"
+	],
+    "settings": { // エディタの設定
+      "terminal.integrated.shell.linux": "/bin/bash",
+      "terminal.integrated.shellArgs.linux": []
+    }
+  }

@@ -1,0 +1,19 @@
+rust
+コンパイル：rustc main.rs
+実行：./main
+
+cargo 
+ビルド：cargo build
+
+
+# ディレクトリ説明
+## rootにあるmain.rsとmainについて
+main.rs：rustコマンドで作成したファイル
+main：rustコマンドでコンパイルしたmain.rs
+
+## hello
+cargoコマンドで作成したプロジェクトファイル
+
+
+## 参考リンクs
+https://blog.dcs.co.jp/rust/20202409-rust-2.html
